@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architect Website</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/9621d44fed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header id="navbar">
+    <nav class="navbar-container container">
+
+      <a href="/" class="home-link">
+        <i class="fa-solid fa-house-chimney"></i>
+        <span>Architect</span>
+      </a>
+      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu"
+        aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div id="navbar-menu" aria-labelledby="navbar-toggle">
+        <ul class="navbar-links">
+          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#services">Services</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+
+  <section class="firstPage">
+    <div class="container-flex">
+      <div class="mainPage-title">
+        <h1>CompanyName</h1>
+        <hr class="hr-template">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ab expedita distinctio</p>
+        <button class="button-template button-white"><a class="href-btn" href="#projects">VIEW PORTFOLIO</a></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-image">
+      <img src="images/about-background1.png" alt="">
+    </div>
+    <div class="about-info">
+      <h2>About CompanyName</h2>
+      <hr class="hr-template">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolores rem fugit.</p>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatem sed
+        eum soluta cumque maxime nesciunt quae, cupiditate, sequi quas laborum nihil?
+        Beatae ea inventore, laboriosam nisi quae eveniet blanditiis! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit.</p>
+      <br>
+      <p>Quae repellat illo sit doloribus,
+        nulla tempora natus odit obcaecati consectetur temporibus culpa architecto,
+        reprehenderit molestiae est. Repellendus animi maiores facilis dolores.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia quis,
+        aliquid autem incidunt maiores provident tempore obcaecati dolor nemo
+        placeat facere, id rerum iste reprehenderit asperiores expedita velit
+        porro? Delectus?</p>
+      <button class="button-yellow">MORE ABOUT US</button>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Introducing Our Services</h2>
+    <hr>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro autem voluptates sed.</p>
+    <div class="services-container">
+
+
+      <div class="service-template">
+        <img src="images/interior-service.jpg" alt="">
+        <h3>Architecture</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugit, placeat perspiciatis.</p>
+      </div>
+      <div class="service-template">
+        <img src="images/planning-service.jpg" alt="">
+        <h3>Architecture</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugit, placeat perspiciatis.</p>
+      </div>
+      <div class="service-template">
+        <img src="images/exterior-sesrvice.jpg" alt="">
+        <h3>Architecture</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugit, placeat perspiciatis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about2">
+    <div class="about2-text">
+      <h3>Lorem ipsum</h3>
+      <hr>
+      <p class="about2-p-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <br>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti, ad sapiente iusto incidunt inventore
+        autem, at a facere, explicabo sed molestiae impedit fugiat tempora necessitatibus vitae. Corporis, ut nulla.
+      </p>
+      <br>
+      <ul>
+        <li><i class="fa-solid fa-circle-check"></i>Skill 1</li>
+        <li><i class="fa-solid fa-circle-check"></i>Skill 2</li>
+        <li><i class="fa-solid fa-circle-check"></i>Skill 3</li>
+        <li><i class="fa-solid fa-circle-check"></i>Skill 4</li>
+      </ul>
+      <br>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum culpa labore repellat, atque placeat unde
+        dolorum explicabo nulla quam recusandae qui earum voluptatibus quasi impedit odit est pariatur eos omnis.</p>
+      <button class="button-white">Our Projects</button>
+    </div>
+    <div class="about2-image">
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="projects-center">Recent Projects</h2>
+    <hr class="projects-center">
+    <p class="projects-center text-m">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, et voluptates
+      est minus.</p>
+    <div class="projects-flex">
+      <div class="project-template">
+        <div class="project-template-image project1"></div>
+        <div class="project-template-text">
+          <h4>Branch</h4>
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia officiis aperiam quae nostrum fugit
+            cupiditate dignissimos minus et praesentium labore sapiente modi, sint enim possimus ut, culpa amet
+            molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="button-blue">LEARN MORE</button>
+        </div>
+      </div>
+      <div class="project-template flex-reverse">
+        <div class="project-template-text">
+          <h4>Branch</h4>
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia officiis aperiam quae nostrum fugit
+            cupiditate dignissimos minus et praesentium labore sapiente modi, sint enim possimus ut, culpa amet
+            molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="button-blue">LEARN MORE</button>
+        </div>
+        <div class="project-template-image project2"></div>
+      </div>
+      <div class="project-template">
+        <div class="project-template-image project3"></div>
+        <div class="project-template-text">
+          <h4>Branch</h4>
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia officiis aperiam quae nostrum fugit
+            cupiditate dignissimos minus et praesentium labore sapiente modi, sint enim possimus ut, culpa amet
+            molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="button-blue">LEARN MORE</button>
+        </div>
+      </div>
+      <div class="project-template flex-reverse">
+        <div class="project-template-text">
+          <h4>Branch</h4>
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia officiis aperiam quae nostrum fugit
+            cupiditate dignissimos minus et praesentium labore sapiente modi, sint enim possimus ut, culpa amet
+            molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="button-blue">LEARN MORE</button>
+        </div>
+        <div class="project-template-image project4"></div>
+      </div>
+    </div>
+    <button class="projects-btn button-yellow">VIEW ALL</button>
+  </section>
+
+  <section class="skills">
+    <h2>Lorem Ipsum</h2>
+    <hr>
+    <p class="text-m">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="skills-flex">
+      <div class="skill-template">
+        <i class="fa-regular fa-lightbulb"></i>
+        <h3>Lorem<span>+</span>Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, soluta! Qui cupiditate deleniti similique
+          impedit pariatur, quam eum vel exercitationem corporis optio sunt laudantium maiores at. Vero ex in eligendi.
+        </p>
+      </div>
+      <div class="skill-template">
+        <i class="fa-solid fa-circle-nodes"></i>
+        <h3>Lorem<span>+</span>Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, soluta! Qui cupiditate deleniti similique
+          impedit pariatur, quam eum vel exercitationem corporis optio sunt laudantium maiores at. Vero ex in eligendi.
+        </p>
+      </div>
+      <div class="skill-template">
+        <i class="fa-solid fa-medal"></i>
+        <h3>Lorem<span>+</span>Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, soluta! Qui cupiditate deleniti similique
+          impedit pariatur, quam eum vel exercitationem corporis optio sunt laudantium maiores at. Vero ex in eligendi.
+        </p>
+      </div>
+      <div class="skill-template">
+        <i class="fa-solid fa-chart-column"></i>
+        <h3>Lorem<span>+</span>Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, soluta! Qui cupiditate deleniti similique
+          impedit pariatur, quam eum vel exercitationem corporis optio sunt laudantium maiores at. Vero ex in eligendi.
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="start-project">
+    <div>
+      <h2>Want to work with us?</h2>
+      <p>Our team of architects is ready to work on your project!</p>
+    </div>
+    <button class="button-white">START A PROJECT</button>
+  </div>
+
+  <section class="team">
+    <h2>Our Team</h2>
+    <hr>
+    <p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae temporibus repellat dolore deleniti, consectetur quo, dolor blanditiis natus quidem ipsa possimus quis incidunt praesentium? Tempore provident magni esse iure.</p>
+    <div class="team-flex">
+      <div class="team-template">
+        <img src="images/person1.png" alt="">
+        <h4>Title</h4>
+        <h3>Name Surname</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsa excepturi, accusantium ullam corrupti temporibus nisi quis earum in aliquid.</p>
+      </div>
+      <div class="team-template">
+        <img src="images/person2.png" alt="">
+        <h4>Title</h4>
+        <h3>Name Surname</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsa excepturi, accusantium ullam corrupti temporibus nisi quis earum in aliquid.</p>
+      </div>
+      <div class="team-template">
+        <img src="images/person3.png" alt="">
+        <h4>Title</h4>
+        <h3>Name Surname</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsa excepturi, accusantium ullam corrupti temporibus nisi quis earum in aliquid.</p>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Our Architects are waiting to discuss your Project!</h2>
+      <hr>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos fuga non unde, animi ad corporis harum quaerat quos libero nihil aspernatur ut perferendis impedit quidem eius pariatur tempore assumenda obcaecati!</p>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore animi fugiat ipsum, ab, minus magnam culpa recusandae deleniti laudantium laboriosam reiciendis repudiandae dolore in, qui tempora vitae. Officia, deleniti fugiat?</p>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+    <div class="contact-info">
+      <h3>Phonne</h3>
+      <p>+1 (234) 567 890</p>
+      <br>
+      <h3>E-mail</h3>
+      <p>loremipsum@gmail.com</p>
+      <br>
+      <h3>Adress</h3>
+      <p>12-34 St. Lorem</p>
+      <p>NY 12345 USA</p>
+    </div>
+  </section>
+
+</body>
+
+</html>
